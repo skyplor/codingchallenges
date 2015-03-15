@@ -1,4 +1,4 @@
-package com.codeeval;
+package com.codeeval.easy;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -15,7 +15,6 @@ public class FizzBuzz {
 	int size = 0;
 	while ((line = buffer.readLine()) != null) {
 	    line = line.trim();
-	    // Process line of input Here
 	    String[] input = line.split(" ");
 	    if (input.length == 3) {
 		f = Integer.parseInt(input[0]);
